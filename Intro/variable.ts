@@ -17,6 +17,10 @@ function getHero() {
     }
 }
 
+// let heroes = ["spiderman", "batman", "superman"]
+// heroes.map((hero) => { 
+//     return `this is your ${hero}`
+// })
 
 hero = getHero();
 
@@ -27,7 +31,3 @@ console.log(userId);
 console.log(isLogged);
 console.log(objs);
 
-
-export {
-
-}
