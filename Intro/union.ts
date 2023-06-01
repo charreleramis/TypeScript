@@ -11,7 +11,8 @@ type Admin = {
 }
 
 // here you can add a condition to have more types using condition "|"
-let myUser: User | Admin = { name: 'charrel', id: 12};
+let myUser: User | Admin = { name: 'charrel', id: 12, username: ''};
+
 
 
 function getUserId(id: number | string) {

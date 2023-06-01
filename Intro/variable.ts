@@ -9,6 +9,9 @@ let userId: number = 10.10;
 
 let hero: boolean;
 
+
+
+
 function getHero() {
     try {
         return true;

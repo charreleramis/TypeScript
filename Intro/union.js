@@ -1,6 +1,6 @@
 var score = 33;
 // here you can add a condition to have more types using condition "|"
-var myUser = { name: 'charrel', id: 12 };
+var myUser;
 function getUserId(id) {
     if (typeof id === 'string') {
         id = id.toLowerCase();

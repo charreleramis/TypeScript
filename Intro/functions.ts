@@ -8,6 +8,9 @@ function getUpperCase(myName: string) {
 }
 
 
+
+
+
 function signUpUser(name: string, email: string, password: string, isPaid: boolean): object {   
     return {
         status: 'success'
